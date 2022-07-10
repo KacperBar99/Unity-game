@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Rooms
+  - Walls
+  - Spawn_Room
+  - Room_Generator
+  - BackGround
+  - Projectile
+  - Enemy
+  - Map_Camera
+  - Door
+  - HUD
+  - Power
+  - power rocks
+  - platform
+  - AudioManager
+  - player_location
+  - spawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - BackGround
+  - enemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2108928063
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3142657101
+    locked: 0
+  - name: UI
+    uniqueID: 1941476605
+    locked: 0

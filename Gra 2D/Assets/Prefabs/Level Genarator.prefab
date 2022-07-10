@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6111532071915780010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6111532071915780011}
+  - component: {fileID: 6111532071915780008}
+  m_Layer: 0
+  m_Name: Level Genarator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6111532071915780011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111532071915780010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6111532071915780008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111532071915780010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35bb709851f52642ab0992733aa2eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  starting_point: {fileID: 6111532071915780011}
+  central_room: {fileID: 5576302001037239227, guid: cfc549a955cf7684a825743f22222d31, type: 3}
+  left_up_room: {fileID: 6978560387335019438, guid: 7246ccdbc925fea418347b014b14b8bf, type: 3}
+  right_up_room: {fileID: 1097716806749171777, guid: 19efd98ac24995d43bd65aaeaebb111f, type: 3}
+  left_down_room: {fileID: 5798066568388046551, guid: 4e3518c7b2cb7a74abc1c615792f7aca, type: 3}
+  right_down_room: {fileID: 1974810659732825066, guid: 7a2ea3767a3dea8438b6406d0ae608eb, type: 3}
+  central_up_room: {fileID: 317702217335605469, guid: 4ed4293cf50f01c4c8028180f7663b15, type: 3}
+  central_down_room: {fileID: 7896789709317012623, guid: b1cec80d5b1392941b944bc1a54e6faa, type: 3}
+  central_left_room: {fileID: 3952880261439205000, guid: 3ab05af3e5264fc46b21bcf3d15a3c97, type: 3}
+  central_right_room: {fileID: 4536198368973221352, guid: fe66bd36922886549899433c5396229f, type: 3}
